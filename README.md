@@ -6,7 +6,7 @@ An interactive app to help users learn Hindi alphabets with fun quiz and example
 ## 🔍 Project Info
 
 **Live URL:**  
-👉 _[Insert your deployed link here]_  
+👉   https://hindi-safar-seekho.netlify.app/
 
 ## ✨ Features
 
