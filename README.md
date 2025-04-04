@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# 🌟 Hindi Alphabet Learning App
 
-## Project info
+An interactive app to help users learn Hindi alphabets with fun quiz and examples.
 
-**URL**: https://lovable.dev/projects/1c2f98cd-2893-4bec-9bad-ed2919af1b3b
 
-## How can I edit this code?
+## 🔍 Project Info
 
-There are several ways of editing your application.
+**Live URL:**  
+👉 _[Insert your deployed link here]_  
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1c2f98cd-2893-4bec-9bad-ed2919af1b3b) and start prompting.
+- Flip cards for each alphabet.
+- Each alphabet and example.
+- Beautiful UI built with Tailwind CSS.
+- Responsive and smooth animations.
+- Clean and reusable React components.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- ⚛️ **React**
+- ⚡ **Vite**
+- 🔠 **TypeScript**
+- 💅 **Tailwind CSS**
+- 🎧 **Speech Synthesis & Audio API**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Clone the Repository
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 2. Install Dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📦 Building for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+This will generate the production-ready files in the `dist/` folder.
 
-This project is built with:
+To preview the build locally:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run preview
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/1c2f98cd-2893-4bec-9bad-ed2919af1b3b) and click on Share -> Publish.
+## 🧪 Linting & Formatting
 
-## Can I connect a custom domain to my Lovable project?
+Make sure your code is clean and consistent:
 
-Yes it is!
+```bash
+npm run lint
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌐 Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+You can deploy this project to any platform like:
+
+- **Vercel** → [vercel.com](https://vercel.com/)
+- **Netlify** → [netlify.com](https://www.netlify.com/)
+- **GitHub Pages** (with a build step)
+

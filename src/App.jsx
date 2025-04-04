@@ -9,7 +9,8 @@ import LessonsPage from "./pages/LessonsPage.jsx";
 import AlphabetPage from "./pages/AlphabetPage.jsx";
 import LeaderboardPage from "./pages/LeaderboardPage.jsx";
 import NotFound from "./pages/NotFound.jsx";
-
+import React from "react";
+import Practice from "./pages/practice.jsx";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/lessons" element={<LessonsPage />} />
           <Route path="/alphabet" element={<AlphabetPage />} />
           <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/practice" element={<Practice />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

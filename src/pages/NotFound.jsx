@@ -23,12 +23,12 @@ const NotFound = () => {
       
       <div className="flex-1 flex items-center justify-center bg-gray-50 px-6">
         <div className="text-center max-w-md">
-          <h1 className="text-5xl font-bold text-hindi-blue mb-4">404</h1>
+          <h1 className="text-5xl font-bold text-hindi-blue mb-4">LOCKED</h1>
           <p className="text-xl text-gray-600 mb-8">
-            Oops! Looks like you're lost in translation.
+            SCORE ATLEAST 80% TO UNLOCK THIS
           </p>
           <p className="mb-8 hindi-text text-3xl text-hindi-orange">
-            यह पृष्ठ मौजूद नहीं है।
+            
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/">

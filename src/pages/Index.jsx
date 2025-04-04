@@ -33,7 +33,7 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-hindi-blue to-blue-900 text-white py-16 md:py-24">
+        <section className="bg-gradient-to-r from-hindi-orange to-orange-500 text-white py-16 md:py-24">
           <div className="container mx-auto px-6 md:px-10">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -45,12 +45,12 @@ const Index = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/lessons">
-                  <Button className="bg-hindi-orange hover:bg-orange-600 text-white text-lg px-8 py-6">
+                  <Button className="bg-black hover:bg-orange-600 text-white text-lg px-8 py-6">
                     Start Learning <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
                 <Link to="/alphabet">
-                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-hindi-blue text-lg px-8 py-6">
+                  <Button variant="outline" className="border-white text-black hover:bg-white hover:text-hindi-blue text-lg px-8 py-6">
                     Explore Hindi Alphabet
                   </Button>
                 </Link>
@@ -60,7 +60,7 @@ const Index = () => {
         </section>
 
         {/* Features Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-6 md:px-10">
             <h2 className="text-3xl font-bold text-center mb-12 text-hindi-blue">
               Everything You Need to Master Hindi
