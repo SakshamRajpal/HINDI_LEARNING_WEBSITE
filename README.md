@@ -22,7 +22,6 @@ An interactive app to help users learn Hindi alphabets with fun quiz and example
 - ⚡ **Vite**
 - 🔠 **TypeScript**
 - 💅 **Tailwind CSS**
-- 🎧 **Speech Synthesis & Audio API**
 
 ## 🚀 Getting Started
 
