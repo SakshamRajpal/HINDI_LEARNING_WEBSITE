@@ -28,8 +28,8 @@ An interactive app to help users learn Hindi alphabets with fun quiz and example
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
+git clone [<YOUR_GIT_URL>](https://github.com/SakshamRajpal/Hindi_Learning_Website.git)
+cd Hindi_Learning_Website
 ```
 
 ### 2. Install Dependencies
